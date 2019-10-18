@@ -37,8 +37,7 @@ public class CriarConta {
 		} else {
 			System.out.println("Números diferentes");
 		}
-		
-
+	
 	}
 
 }
