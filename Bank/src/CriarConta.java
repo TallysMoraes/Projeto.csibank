@@ -22,6 +22,23 @@ public class CriarConta {
 		
 		System.out.println(conta1);
 		System.out.println(conta2);
+		
+		if(conta1.agencia == conta2.agencia) {
+			System.out.println("Agências iguais!");
+		} else {
+			System.out.println("Agências diferentes");
+		}
+	
+		int numero1 = 5;
+		int numero2 = 5;
+		
+		if(numero1 == numero2) {
+			System.out.println("Números iguais");
+		} else {
+			System.out.println("Números diferentes");
+		}
+		
+
 	}
 
 }
